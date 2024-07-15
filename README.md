@@ -17,7 +17,7 @@
 
 ## About the project
 
-In this project, an ETL process will be carried out, with data extraction from a TXT file, transformation using a bash script, and loading into an SQLite database. The entire process is orchestrated by Apache Airflow, where the task can be scheduled to run at any time you want.
+In this project, an ETL process will be carried out, with data extraction from an API, transformation using Python, and loading into an SQLite database. The entire process is orchestrated by Apache Airflow, where the task can be scheduled to run at any time you want.
 
 ## Installation and configuration
 
