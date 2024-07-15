@@ -1,5 +1,5 @@
 <h1 align="center">
-    ETL using Apache Airflow, Bash Script, SQLite and Docker
+    Project ELT Weather- Data extraction from API
 </h1>
 
 <br>
@@ -42,8 +42,7 @@ In this project, an ETL process will be carried out, with data extraction from a
 ```bash
   https://www.weatherapi.com/
 ```
-  5. After create the account, you have to edit the file 'project_etl.py' by putting your own key of the api
-  In the lines 22 and 23 of the code, there will be the code like below
+  5. After create the account, you have to edit the file 'project_etl.py' by putting your own key of the api. In the lines 22 and 23 of the code, there will be the a code like below.
 
 ```bash
   # Getting the key from API - After create your account, put the key in this variable

@@ -1,4 +1,4 @@
-# Project ELT Weather- Data extraction from API with Apache Airflow
+# Project ELT Weather- Data extraction from API
 
 # Imports
 import datetime as dt
