@@ -4,7 +4,7 @@
 
 <br>
     <div align="center">
-        <a><img src="https://github.com/patrickverol/Airflow/assets/102604896/4c9ee6fd-491d-43b1-9a81-ea1a925d8743"></a> 
+        <a><img src="https://github.com/user-attachments/assets/6e716ab9-5503-42f9-82c1-cf9e8e8b6f57"></a> 
     </div>
 </br>
 
@@ -37,16 +37,28 @@ In this project, an ETL process will be carried out, with data extraction from a
 ```bash
   cd your_folder
 ```
-  4. Run the command below to create the Airflow Docker images and initialize the database.
+  4. Create an account in the site below
+
+```bash
+  https://www.weatherapi.com/
+```
+  5. After create the account, you have to edit the file 'project_etl.py' by putting your own key of the api
+  In the lines 22 and 23 of the code, there will be the code like below
+
+```bash
+  # Getting the key from API - After create your account, put the key in this variable
+  key_api_weather = 'Put your key here'
+```
+  6. Run the command below to create the Airflow Docker images and initialize the database.
 ```bash
   docker compose up airflow-init
 ```
-  5. Run the command below to initialize Airflow.
+  7. Run the command below to initialize Airflow.
 
 ```bash
   docker compose up
 ```
-  6. Open the browser and log in.
+  8. Open the browser and log in.
 ```bash
   http://localhost:8080/login
 

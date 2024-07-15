@@ -18,9 +18,12 @@ def extract_data_from_api():
     """
     # Gets the current date and time
     today = datetime.datetime.now()
-    
+
+    # Getting the key from API - After create your account, put the key in this variable
+    key_api_weather = 'Put your key here'
+
     # Makes a GET request to the weather API
-    data_api = requests.get("http://api.weatherapi.com/v1/current.json?key=2dcc8a8d61ef44a38e6194440241207&q=Rio de Janeiro&aqi=yes")
+    data_api = requests.get(f"http://api.weatherapi.com/v1/current.json?key={key_api_weather}&q=Rio de Janeiro&aqi=yes")
     
     # Converts the API response to JSON
     data_json = data_api.json()
